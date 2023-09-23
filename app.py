@@ -15,6 +15,7 @@ def init_app() -> FastAPI:
 def register_routes(app: FastAPI) -> None:
     app.include_router(router=routes.router)
 
+
 def run_app(app: FastAPI) -> None:
     uvicorn.run(app="app:app", host=settings.ADDRESS, port=settings.PORT, reload=True)
 

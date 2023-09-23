@@ -8,6 +8,8 @@ fastapi = "*"
 pydantic-settings = "*"
 python-dotenv = "*"
 uvicorn = "*"
+nltk = "*"
+googletrans = "==4.0.0rc1"
 
 [dev-packages]
 
