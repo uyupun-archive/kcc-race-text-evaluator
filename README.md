@@ -1,4 +1,4 @@
-# kcc-race-word-evaluator
+# kcc-race-text-evaluator
 
 ```bash
 $ cp .env.example .env
